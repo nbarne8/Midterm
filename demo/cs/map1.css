@@ -1,0 +1,17 @@
+/*The map function modifies the shape and size of the mpa from script.js.*/
+#map {
+	width: 100%;
+	height: 650px;
+	margin: 0 auto;
+	padding:0;
+}
+
+/*This modifies the text on the mian page*/
+body {
+  padding-top: 50px;
+}
+	.starter-template {
+  	padding: 40px 15px;
+  	text-align: center;
+  <div id="map"></div>
+}

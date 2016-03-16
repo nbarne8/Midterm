@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>United States Weather and Hazards Maps</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="cs/cover.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">United States Weather and Hazards Maps</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a target="_blank" href="http://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/sat_meteo_emulated_imagery_lightningstrikedensity_goes_time/MapServer">Lightning</a></li>
+                  <li><a target="_blank" href="http://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/forecast_meteoceanhydro_sfc_ndfd_relhumidity_offsets/MapServer">Humidity</a></li>
+                  <li><a target="_blank" href="https://idpgis.ncep.noaa.gov/arcgis/rest/services/NWS_Observations/radar_base_reflectivity/MapServer">Precipitation</a></li>
+                  <li><a target="_blank" href="http://earthquake.usgs.gov/earthquakes/map/">Earthquake</a></li>
+                  <li><a target="_blank" href="http://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/forecast_meteoceanhydro_sfc_ndfd_windspeed_offsets/MapServer">Wind</a></li>
+                    <li><a target="_blank" href="http://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/wwa_meteoceanhydro_longduration_hazards_time/MapServer">Hazard</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Real-time weather and hazard simulators for the United States of America.</h1>
+            <p class="lead">See real-time precipitation, lightning, and humidity data from NOAA; recent earthquakes from the USGS, and wind speeds from NOAA Nowcoast.</p>
+          </div>
+
+            <div class="round">
+                <a target="_blank" href="map1.html" class="round"><img src="images/storm.jpg"></a>
+            </div>
+            <div class="round">
+                <a target="_blank" href="map2.html" class="round"><img src="images/seismic.jpg"></a>
+            </div>
+            <div class="round">
+                <a target="_blank" href="map3.html" class="round"><img src="images/wind.jpg"></a>
+            </div>
+
+            <p> Weather, Earthquakes, Hazards</p>
+
+<!--footer, should not be changed-->
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a target="_blank" href="http://getbootstrap.com">Bootstrap</a>, by <a target="_blank" href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+  </body>
+</html>
